@@ -1,9 +1,9 @@
-import { Diagram } from './Diagram'
+import { Diagram } from './components/Diagram'
 import { useState, useEffect, useCallback } from 'react'
-import { useMobile } from './useMobile'
+import { useMobile } from './utils/useMobile'
 import words from "./wordList.json"
-import { Word } from './Word'
-import { Keyboard } from './Keyboard'
+import { Word } from './components/Word'
+import { Keyboard } from './components/Keyboard'
 import './App.css'
 
 function getWord() {

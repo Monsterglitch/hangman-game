@@ -1,4 +1,4 @@
-import { useMobile } from "./useMobile"
+import { useMobile } from "../utils/useMobile"
 
 type WordProps = {
     guessedLetters: string[]
